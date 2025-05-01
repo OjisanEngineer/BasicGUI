@@ -7,4 +7,7 @@ GUI.geometry('500x500')
 L1 = Label(GUI,text='Hello World',font=(None,20))
 L1.pack()
 
+B1 = Button(GUI,text='Click me!')
+B1.pack()
+
 GUI.mainloop()
